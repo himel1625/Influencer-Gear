@@ -189,3 +189,41 @@ ion-icon {
   font-weight: 700;
   margin-top: 20px;
 }
+/* Featured-products-section  */
+.Featured {
+  width: 1110px;
+  height: 270px;
+  margin: 0 auto;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Featured-text h1 {
+  color: rgb(10, 8, 38);
+  font-family: var(--secondaryFont);
+  font-size: 38px;
+  font-weight: 700;
+  margin-left: 92px;
+}
+.Featured-text p {
+  color: rgb(108, 108, 108);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--secondaryFont);
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.Featured-text-btn {
+  background: rgb(224, 44, 109);
+  padding: 10px 14px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--secondaryFont);
+margin-left: 100px;
+border-radius: 8px;
+margin-top: 20px;
+}
