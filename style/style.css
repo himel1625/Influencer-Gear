@@ -115,5 +115,77 @@ ion-icon {
   width: 84px;
   height: 26px;
 }
+
+/* Popular-Collection-section   */
+.Collection {
+  margin-top: 80px;
+  height: 1662px;
+  width: 1047px;
+  margin: 0 auto;
 }
+.Collection > h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(58, 58, 58);
+  font-size: 28px;
+  font-weight: 600;
+  font-family: var(--secondaryFont);
+}
+.card-box {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 348px);
+  align-content: center;
+  justify-content: center;
+  grid-row-gap: 15px;
+}
+.card {
+  width: 329px;
+  height: 450px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+}
+.card > img {
+  padding-left: 16px;
+  padding-top: 10px;
+}
+.card h2 {
+  color: rgb(24, 25, 31);
+  font-family: var(--secondaryFont);
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 16px;
+}
+.card h3 {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: var(--primaryColor);
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 16px;
+}
+.card h4 {
+  padding-left: 16px;
+}
+.card span {
+  color: rgb(94, 99, 102);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+}
+.card p {
+  color: rgb(120, 120, 133);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--primaryColor);
+  padding-left: 16px;
+  margin-top: 20px;
+}
+.see-more {
+  text-align: right;
+  color: rgba(224, 44, 109, 0.87);
+  font-family: var(--secondaryFont);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
 }
