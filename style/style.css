@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 :root {
   --secondaryFont: 'Poppins', sans-serif;
@@ -13,4 +14,106 @@
 body,
 html {
   scroll-behavior: smooth;
+  width: 1920px;
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+}
+/* Header section  */
+
+/* nav section  */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 120px;
+}
+
+.hiden {
+  display: none;
+}
+.nav-logo {
+  font-size: 1.5rem;
+  color: rgb(58, 58, 58);
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(58, 58, 58);
+  font-family: var(--secondaryFont);
+  font-weight: 600;
+  cursor: pointer;
+}
+ion-icon {
+  font-size: 1.5rem;
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.header-text h1 {
+  color: rgb(58, 58, 58);
+  font-size: 50px;
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  width: 70%;
+}
+.header-text p {
+  font-family: var(--secondaryFont);
+  color: rgb(58, 58, 58);
+  font-size: 16px;
+  font-weight: 400;
+  width: 70%;
+}
+.text-btn {
+  border-radius: 20px;
+  background: rgb(224, 44, 109);
+  padding: 10px 24px;
+  border: none;
+  font-size: 16px;
+  font-family: var(--secondaryFont);
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.img01 {
+  position: relative;
+}
+.img02 {
+  position: absolute;
+  right: 250px;
+  top: 280px;
+}
+.our-sponsor {
+  width: 1110px;
+  height: 110px;
+  margin: 0 auto;
+  background: linear-gradient(
+    135deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.378%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.our-sponsor img {
+  width: 84px;
+  height: 26px;
+}
+}
 }
