@@ -194,7 +194,6 @@ ion-icon {
   width: 1110px;
   height: 270px;
   margin: 0 auto;
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -223,7 +222,39 @@ ion-icon {
   font-size: 16px;
   font-weight: 700;
   font-family: var(--secondaryFont);
-margin-left: 100px;
-border-radius: 8px;
-margin-top: 20px;
+  margin-left: 100px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+/* footer-section    */
+footer {
+  background: #2c3e50;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 30px;
+}
+
+.footer-caption h1 {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-weight: 700;
+  font-family: var(--secondaryFont);
+}
+
+.footer-caption p {
+  color: rgb(217, 219, 225);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+}
+.footer-logo ion-icon {
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+  cursor: pointer;
 }
